@@ -1,0 +1,28 @@
+.product{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.product .name{
+  font-size: 35px;
+  margin: 20px 0 10px 10px;
+}
+
+.product .prices{
+  list-style: none;
+  padding-left: 20px;
+}
+
+.product .prices li {
+  margin-bottom: 10px;
+}
+
+.product .prices .price {
+  font-weight: 600;
+}

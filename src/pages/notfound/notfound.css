@@ -1,0 +1,7 @@
+.notfound-page{
+  margin-left: 20px;
+}
+
+.notfound-page > *{
+  margin: 0;
+}

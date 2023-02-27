@@ -1,0 +1,36 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 15rem;
+}
+
+.hero .text{
+  text-align: center;
+  position: relative;
+}
+
+.hero .text > * {
+  margin: 0;
+}
+
+.hero h1 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.hero .description {
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 0 20px 0 20px;
+}
+
+.hero .background-image{
+  position: absolute;
+  width: 100%;
+  opacity: .2;
+  filter: grayscale(1);
+  user-select: none;
+  -webkit-user-drag: none;
+}

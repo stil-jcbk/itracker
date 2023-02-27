@@ -1,0 +1,46 @@
+.product-choose {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  cursor: pointer;
+  transition: box-shadow .3s ease;
+}
+
+.product-choose:hover {
+  box-shadow: 0 0 50px var(--main-color);
+  border-color: var(--main-color);
+}
+
+.product-choose:has(:hover) .image-wrap {
+  scale: 1.7;
+}
+
+.product-choose .image-wrap {
+  display: flex;
+  overflow: hidden;
+  scale: 2;
+  rotate: 15deg;
+  justify-content: flex-end;
+  transition: scale .5s ease;
+}
+
+.product-choose .image {
+  align-self: first baseline;
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.product-choose .name {
+  position: relative;
+  margin: 0;
+}
